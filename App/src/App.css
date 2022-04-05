@@ -1,0 +1,278 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.allChannels {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.singleTweet {
+  display: flex;
+  align-items: flex-start;
+  color: black;
+  font-weight: bolder;
+  width: 30%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.pure-button {
+  color: blue;
+}
+
+.channelLink {
+  color: blue;
+  cursor: pointer;
+}
+
+.channelDisplay {
+  height: calc(100vh - 55.52px);
+  width: 80vw;
+  left: 20%;
+}
+.logo {
+  height: 40px;
+  width: 119px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.userChannels {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.singleChannel {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 1px;
+  align-self: center;
+  padding: 10px;
+  width: 400px;
+  height: 80px;
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createChannelBtn {
+  margin-top: 10px;
+}
+
+.channelNameAndMessage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profilePhoto {
+  display: flex;
+  margin-right: 10px;
+}
+
+.blockies {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 0 5px 0 5px;
+  border: solid black 3px;
+}
+
+.closeBtn {
+  cursor: pointer;
+}
+.channelNameAndTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  flex: 2;
+}
+
+#bigger {
+  width: 100vw;
+}
+.own-color {
+  color: white;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.navbarStyle {
+  background-color: #111d4a;
+}
+
+#navbarStyle {
+  margin-bottom: 0;
+}
+
+#sidebarStyle {
+  background-color: #8789c0;
+}
+
+#searchInputBox {
+  justify-content: flex-end;
+}
+
+.item:nth-child(4) {
+  cursor: pointer;
+}
+
+#test {
+  width: 55vw;
+}
+
+.messageFormStyle {
+  position: fixed;
+  bottom: 20px;
+  width: 65vw;
+}
+
+#messageFormStyle {
+  width: 50vw;
+}
+
+.messageContainerRight {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.messageContainerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.speech-bubble-left {
+  position: relative;
+  background: #8789c0;
+  border-radius: 0.4em;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 1px 1px grey;
+  border: 1px solid grey;
+  padding: 15px;
+}
+.speech-bubble-left:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-right-color: #8789c0;
+  border-left: 0;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.speech-bubble-right {
+  position: relative;
+  background: #00aabb;
+  border-radius: 0.4em;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding: 15px;
+}
+.speech-bubble-right:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #00aabb;
+  border-right: 0;
+  margin-top: -20px;
+  margin-right: -20px;
+}
+
+.timeStamp {
+  color: #111d4a;
+  font-size: 1rem;
+}
+
+.singleChannel:hover {
+  background-color: #111d4a;
+}
+
+#editChannelStyle {
+  display: flex;
+  justify-content: space-between;
+}
+
+#unfollow {
+  width: 15 vw;
+}
+
+#follow {
+  width: 15 vw;
+}
