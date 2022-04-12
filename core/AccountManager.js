@@ -1,3 +1,6 @@
+
+// Importing all necessary libraries
+
 import { sha256 } from 'ethereumjs-util';
 
 import Wallet from 'ethereumjs-wallet';
@@ -9,6 +12,7 @@ import appDispatcher from '../core/AppDispatcher';
 import TransactionManager from './TransactionManager';
 import Constant from '../support/Constant';
 import Config from '../support/Config';
+
 
 class AccountManager {
     constructor(storageManager) {
