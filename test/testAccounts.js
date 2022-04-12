@@ -14,9 +14,5 @@ module.exports.testAccounts = [
     {
         balance: 100000000000000000000,
         secretKey: Buffer.from('f6622609bf22666986b18afd4ddcceaecd06ba1655abc8134c728dbe82addc47', 'hex')
-    },
-    {
-        balance: 100000000000000000000,
-        secretKey: Buffer.from('y63948cf1e3932f986b18afd4610c36d33c904538098a6e34c728dbe82484194', 'hex')
     }
 ]
