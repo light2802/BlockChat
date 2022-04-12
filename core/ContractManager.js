@@ -48,7 +48,7 @@ class ContractManager {
         }
         return profile;
     }
-
+    // get members information.
     getMemberInfo = async (address, relationship) => {
         var memberInfo = await this.contract.methods.members(address).call();
         if (memberInfo.isMember) {
@@ -108,7 +108,7 @@ class ContractManager {
                 if (callback) callback(Constant.EVENT.ON_ERROR);
             });
     }
-
+    // accept request from other users
     acceptContactRequest = async (address, callback) => {
         var method = this.contract.methods.acceptContactRequest(address);
         this.transactionManager.executeMethod(method)
@@ -127,7 +127,7 @@ class ContractManager {
                 if (callback) callback(Constant.EVENT.ON_ERROR);
             });
     }
-
+    // Update profile of the user
     updateProfile = async (name, avatarUrl, callback) => {
         var nameHex = '0x' + Buffer.from(name, 'ascii').toString('hex');
         var avatarUrlHex = '0x' + Buffer.from(avatarUrl, 'ascii').toString('hex');
