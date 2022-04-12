@@ -88,7 +88,7 @@ class AccountManager {
         }
     }
 
-    // Compute a secret key for messages encryption/decryption
+    // Compute the secret key for messages encryption/decryption
     computeSecret = (publicKeyBuffer) => {
         var a = crypto.createECDH('secp256k1');
         a.generateKeys();
