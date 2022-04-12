@@ -25,6 +25,7 @@ import SettingsModal from '../views/modals/SettingsModal';
 import TransactionModal from '../views/modals/TransactionModal';
 import Footer from '../views/Footer';
 
+// componets of the page
 class Index extends Component {
     constructor(props) {
         super(props);
