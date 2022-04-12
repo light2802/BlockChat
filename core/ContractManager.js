@@ -127,6 +127,7 @@ class ContractManager {
                 if (callback) callback(Constant.EVENT.ON_ERROR);
             });
     }
+    
     // Update profile of the user
     updateProfile = async (name, avatarUrl, callback) => {
         var nameHex = '0x' + Buffer.from(name, 'ascii').toString('hex');
